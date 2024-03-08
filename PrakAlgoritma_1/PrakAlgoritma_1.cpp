@@ -58,3 +58,14 @@ void display() {
 } 
 
 
+int main() {
+
+	input();     // Memanggil procedur input()
+	bubbleSortArray(); // Mengurutkan data dengan algoritma bubble sort
+	display(); // Memanggil procedur display()
+	system("pause");
+
+	return 0;
+} 
+
+
